@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C3230926D2D6BC0060BE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3230826D2D6BC0060BE13 /* AppDelegate.swift */; };
+		39C3230B26D2D6BC0060BE13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3230A26D2D6BC0060BE13 /* SceneDelegate.swift */; };
+		39C3230D26D2D6BC0060BE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3230C26D2D6BC0060BE13 /* ViewController.swift */; };
+		39C3231026D2D6BC0060BE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3230E26D2D6BC0060BE13 /* Main.storyboard */; };
+		39C3231226D2D6BE0060BE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C3231126D2D6BE0060BE13 /* Assets.xcassets */; };
+		39C3231526D2D6BE0060BE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C3231326D2D6BE0060BE13 /* LaunchScreen.storyboard */; };
+		39C3232026D2D6BE0060BE13 /* Civic_SayarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3231F26D2D6BE0060BE13 /* Civic_SayarTests.swift */; };
+		39C3232B26D2D6BE0060BE13 /* Civic_SayarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C3232A26D2D6BE0060BE13 /* Civic_SayarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C3231C26D2D6BE0060BE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C322FD26D2D6BC0060BE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C3230426D2D6BC0060BE13;
+			remoteInfo = "Civic Sayar";
+		};
+		39C3232726D2D6BE0060BE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C322FD26D2D6BC0060BE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C3230426D2D6BC0060BE13;
+			remoteInfo = "Civic Sayar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39C3230526D2D6BC0060BE13 /* Civic Sayar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Civic Sayar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C3230826D2D6BC0060BE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39C3230A26D2D6BC0060BE13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39C3230C26D2D6BC0060BE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39C3230F26D2D6BC0060BE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C3231126D2D6BE0060BE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C3231426D2D6BE0060BE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39C3231626D2D6BE0060BE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C3231B26D2D6BE0060BE13 /* Civic SayarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Civic SayarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C3231F26D2D6BE0060BE13 /* Civic_SayarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civic_SayarTests.swift; sourceTree = "<group>"; };
+		39C3232126D2D6BE0060BE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C3232626D2D6BE0060BE13 /* Civic SayarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Civic SayarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C3232A26D2D6BE0060BE13 /* Civic_SayarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civic_SayarUITests.swift; sourceTree = "<group>"; };
+		39C3232C26D2D6BE0060BE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C3230226D2D6BC0060BE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3231826D2D6BE0060BE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3232326D2D6BE0060BE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C322FC26D2D6BC0060BE13 = {
+			isa = PBXGroup;
+			children = (
+				39C3230726D2D6BC0060BE13 /* Civic Sayar */,
+				39C3231E26D2D6BE0060BE13 /* Civic SayarTests */,
+				39C3232926D2D6BE0060BE13 /* Civic SayarUITests */,
+				39C3230626D2D6BC0060BE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C3230626D2D6BC0060BE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C3230526D2D6BC0060BE13 /* Civic Sayar.app */,
+				39C3231B26D2D6BE0060BE13 /* Civic SayarTests.xctest */,
+				39C3232626D2D6BE0060BE13 /* Civic SayarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C3230726D2D6BC0060BE13 /* Civic Sayar */ = {
+			isa = PBXGroup;
+			children = (
+				39C3230826D2D6BC0060BE13 /* AppDelegate.swift */,
+				39C3230A26D2D6BC0060BE13 /* SceneDelegate.swift */,
+				39C3230C26D2D6BC0060BE13 /* ViewController.swift */,
+				39C3230E26D2D6BC0060BE13 /* Main.storyboard */,
+				39C3231126D2D6BE0060BE13 /* Assets.xcassets */,
+				39C3231326D2D6BE0060BE13 /* LaunchScreen.storyboard */,
+				39C3231626D2D6BE0060BE13 /* Info.plist */,
+			);
+			path = "Civic Sayar";
+			sourceTree = "<group>";
+		};
+		39C3231E26D2D6BE0060BE13 /* Civic SayarTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C3231F26D2D6BE0060BE13 /* Civic_SayarTests.swift */,
+				39C3232126D2D6BE0060BE13 /* Info.plist */,
+			);
+			path = "Civic SayarTests";
+			sourceTree = "<group>";
+		};
+		39C3232926D2D6BE0060BE13 /* Civic SayarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C3232A26D2D6BE0060BE13 /* Civic_SayarUITests.swift */,
+				39C3232C26D2D6BE0060BE13 /* Info.plist */,
+			);
+			path = "Civic SayarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C3230426D2D6BC0060BE13 /* Civic Sayar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C3232F26D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic Sayar" */;
+			buildPhases = (
+				39C3230126D2D6BC0060BE13 /* Sources */,
+				39C3230226D2D6BC0060BE13 /* Frameworks */,
+				39C3230326D2D6BC0060BE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Civic Sayar";
+			productName = "Civic Sayar";
+			productReference = 39C3230526D2D6BC0060BE13 /* Civic Sayar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C3231A26D2D6BE0060BE13 /* Civic SayarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C3233226D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic SayarTests" */;
+			buildPhases = (
+				39C3231726D2D6BE0060BE13 /* Sources */,
+				39C3231826D2D6BE0060BE13 /* Frameworks */,
+				39C3231926D2D6BE0060BE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C3231D26D2D6BE0060BE13 /* PBXTargetDependency */,
+			);
+			name = "Civic SayarTests";
+			productName = "Civic SayarTests";
+			productReference = 39C3231B26D2D6BE0060BE13 /* Civic SayarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C3232526D2D6BE0060BE13 /* Civic SayarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C3233526D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic SayarUITests" */;
+			buildPhases = (
+				39C3232226D2D6BE0060BE13 /* Sources */,
+				39C3232326D2D6BE0060BE13 /* Frameworks */,
+				39C3232426D2D6BE0060BE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C3232826D2D6BE0060BE13 /* PBXTargetDependency */,
+			);
+			name = "Civic SayarUITests";
+			productName = "Civic SayarUITests";
+			productReference = 39C3232626D2D6BE0060BE13 /* Civic SayarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C322FD26D2D6BC0060BE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = kentel;
+				TargetAttributes = {
+					39C3230426D2D6BC0060BE13 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					39C3231A26D2D6BE0060BE13 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 39C3230426D2D6BC0060BE13;
+					};
+					39C3232526D2D6BE0060BE13 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 39C3230426D2D6BC0060BE13;
+					};
+				};
+			};
+			buildConfigurationList = 39C3230026D2D6BC0060BE13 /* Build configuration list for PBXProject "Civic Sayar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C322FC26D2D6BC0060BE13;
+			productRefGroup = 39C3230626D2D6BC0060BE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C3230426D2D6BC0060BE13 /* Civic Sayar */,
+				39C3231A26D2D6BE0060BE13 /* Civic SayarTests */,
+				39C3232526D2D6BE0060BE13 /* Civic SayarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C3230326D2D6BC0060BE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C3231526D2D6BE0060BE13 /* LaunchScreen.storyboard in Resources */,
+				39C3231226D2D6BE0060BE13 /* Assets.xcassets in Resources */,
+				39C3231026D2D6BC0060BE13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3231926D2D6BE0060BE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3232426D2D6BE0060BE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C3230126D2D6BC0060BE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C3230D26D2D6BC0060BE13 /* ViewController.swift in Sources */,
+				39C3230926D2D6BC0060BE13 /* AppDelegate.swift in Sources */,
+				39C3230B26D2D6BC0060BE13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3231726D2D6BE0060BE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C3232026D2D6BE0060BE13 /* Civic_SayarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C3232226D2D6BE0060BE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C3232B26D2D6BE0060BE13 /* Civic_SayarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C3231D26D2D6BE0060BE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C3230426D2D6BC0060BE13 /* Civic Sayar */;
+			targetProxy = 39C3231C26D2D6BE0060BE13 /* PBXContainerItemProxy */;
+		};
+		39C3232826D2D6BE0060BE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C3230426D2D6BC0060BE13 /* Civic Sayar */;
+			targetProxy = 39C3232726D2D6BE0060BE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39C3230E26D2D6BC0060BE13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C3230F26D2D6BC0060BE13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39C3231326D2D6BE0060BE13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C3231426D2D6BE0060BE13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C3232D26D2D6BE0060BE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39C3232E26D2D6BE0060BE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C3233026D2D6BE0060BE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic Sayar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-Sayar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39C3233126D2D6BE0060BE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic Sayar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-Sayar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39C3233326D2D6BE0060BE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic SayarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-SayarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Civic Sayar.app/Civic Sayar";
+			};
+			name = Debug;
+		};
+		39C3233426D2D6BE0060BE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic SayarTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-SayarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Civic Sayar.app/Civic Sayar";
+			};
+			name = Release;
+		};
+		39C3233626D2D6BE0060BE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic SayarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-SayarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Civic Sayar";
+			};
+			name = Debug;
+		};
+		39C3233726D2D6BE0060BE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3CFQKQ6BR;
+				INFOPLIST_FILE = "Civic SayarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kentel.Civic-SayarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Civic Sayar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C3230026D2D6BC0060BE13 /* Build configuration list for PBXProject "Civic Sayar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C3232D26D2D6BE0060BE13 /* Debug */,
+				39C3232E26D2D6BE0060BE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C3232F26D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic Sayar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C3233026D2D6BE0060BE13 /* Debug */,
+				39C3233126D2D6BE0060BE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C3233226D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic SayarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C3233326D2D6BE0060BE13 /* Debug */,
+				39C3233426D2D6BE0060BE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C3233526D2D6BE0060BE13 /* Build configuration list for PBXNativeTarget "Civic SayarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C3233626D2D6BE0060BE13 /* Debug */,
+				39C3233726D2D6BE0060BE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C322FD26D2D6BC0060BE13 /* Project object */;
+}
